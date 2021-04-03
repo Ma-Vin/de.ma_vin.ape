@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>de.mv.ape</groupId>
+    <groupId>de.ma_vin.ape</groupId>
     <artifactId>ape</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -12,21 +12,21 @@
     <url>https://github.com/Ma-Vin</url>
 
     <organization>
-        <name>mv</name>
-        <url>https://github.com/Ma-Vin</url>
+        <name>Ma-Vin</name>
+        <url>https://www.ma-vin.de</url>
     </organization>
 
     <developers>
         <developer>
             <name>Ma-Vin</name>
-            <organizationUrl>https://github.com/Ma-Vin</organizationUrl>
+            <organizationUrl>https://www.ma-vin.de</organizationUrl>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:git://https://github.com/Ma-Vin/de.mv.ape.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/Ma-Vin/de.mv.ape.git</developerConnection>
-        <url>https://github.com/Ma-Vin/de.mv.ape</url>
+        <connection>scm:git:git://https://github.com/Ma-Vin/de.ma_vin.ape.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/Ma-Vin/de.ma_vin.ape.git</developerConnection>
+        <url>https://github.com/Ma-Vin/de.ma_vin.ape</url>
     </scm>
 
     <issueManagement>
