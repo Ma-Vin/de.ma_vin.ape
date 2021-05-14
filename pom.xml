@@ -44,6 +44,7 @@
         <log4j.version>2.14.1</log4j.version>
         <lombok.version>1.18.20</lombok.version>
         <maven.plugin.version>3.8.1</maven.plugin.version>
+        <maven.jar.plugin.version>3.2.0</maven.jar.plugin.version>
         <maven.resource.plugin.version>3.2.0</maven.resource.plugin.version>
         <maven.source.plugin.version>3.2.1</maven.source.plugin.version>
         <mockito.version>3.9.0</mockito.version>
@@ -227,6 +228,11 @@
                         <release>${maven.compiler.release}</release>
                         <encoding>${project.build.sourceEncoding}</encoding>
                     </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>${maven.jar.plugin.version}</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
