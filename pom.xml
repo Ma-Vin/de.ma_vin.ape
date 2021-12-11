@@ -41,7 +41,7 @@
         <javax.xml.bind>2.3.1</javax.xml.bind>
         <junit.jupiter.version>5.8.0-M1</junit.jupiter.version>
         <junit.platform.version>1.8.0-M1</junit.platform.version>
-        <log4j.version>2.14.1</log4j.version>
+        <log4j.version>2.15.0</log4j.version>
         <lombok.version>1.18.20</lombok.version>
         <maven.plugin.version>3.8.1</maven.plugin.version>
         <maven.jar.plugin.version>3.2.0</maven.jar.plugin.version>
