@@ -36,7 +36,7 @@
 
     <properties>
         <cucumber.version>6.10.3</cucumber.version>
-        <h2.version>1.4.200</h2.version>
+        <h2.version>2.0.202</h2.version>
         <jacoco.plugin.version>0.8.6</jacoco.plugin.version>
         <javax.xml.bind>2.3.1</javax.xml.bind>
         <junit.jupiter.version>5.8.0-M1</junit.jupiter.version>
