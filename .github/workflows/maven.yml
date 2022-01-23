@@ -41,6 +41,12 @@ jobs:
         run: mvn -B clean install --file main/pom.xml --settings maven/settings.xml
       # - name: Perform CodeQL Analysis
       #   uses: github/codeql-action/analyze@v1
+      - name: delete old versions
+        uses: actions/delete-package-versions@v2
+        with:
+          min-versions-to-keep: 1
+          delete-only-pre-release-versions: true
+          token: ${{ secrets.APE_GITHUB_PACKAGES_PAT }}
       - name: Deploy ape
         env:
           GITHUB_PACKAGES_USERNAME: ${{ secrets.APE_GITHUB_PACKAGES_USER }}
