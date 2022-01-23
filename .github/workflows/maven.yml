@@ -46,7 +46,7 @@ jobs:
         with:
           package-name: de.ma_vin.ape.ape
           min-versions-to-keep: 1
-          delete-only-pre-release-versions: true
+          delete-only-pre-release-versions: "true"
           token: ${{ secrets.APE_GITHUB_PACKAGES_PAT }}
       - name: Deploy ape
         env:
