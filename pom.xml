@@ -34,6 +34,14 @@
         <url>https://github.com/users/Ma-Vin/projects/2</url>
     </issueManagement>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/Ma-Vin/de.ma_vin.ape</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <cucumber.version>7.2.3</cucumber.version>
         <h2.version>1.4.200</h2.version>
