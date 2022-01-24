@@ -56,4 +56,4 @@ jobs:
         run: mvn -B deploy --file main/pom.xml --settings maven/settings.xml
       - name: create trigger
         run: |
-          curl -X POST -H "Authorization: token ${{ secrets.APE_WEBHOOK_PAT }}" https://api.github.com/repos/Ma-Vin/de.ma_vin.ape.utils/actions/workflows/maven.yml/dispatches -d '{"ref": "${{ github.ref_name }}"}'
+          curl -X POST -H "Authorization: token ${{ secrets.APE_WEBHOOK_PAT }}" https://api.github.com/repos/Ma-Vin/de.ma_vin.ape.utils/actions/workflows/maven.yml/dispatches -d '{"ref": "${{ github.ref }}", "inputs": { "branch": "${{ github.ref_name }}" } }'
