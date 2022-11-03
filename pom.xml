@@ -43,7 +43,7 @@
     </distributionManagement>
 
     <properties>
-        <cucumber.version>7.8.0</cucumber.version>
+        <cucumber.version>7.9.0</cucumber.version>
         <h2.version>2.1.214</h2.version>
         <jacoco.plugin.version>0.8.8</jacoco.plugin.version>
         <javax.xml.bind>2.3.1</javax.xml.bind>
@@ -55,9 +55,9 @@
         <maven.resource.plugin.version>3.3.0</maven.resource.plugin.version>
         <maven.source.plugin.version>3.2.1</maven.source.plugin.version>
         <maven.surefire.plugin.version>3.0.0-M7</maven.surefire.plugin.version>
-        <mockito.version>4.8.0</mockito.version>
+        <mockito.version>4.8.1</mockito.version>
         <sonar.plugin.version>3.9.1.2184</sonar.plugin.version>
-        <spring.boot.version>2.7.3</spring.boot.version>
+        <spring.boot.version>2.7.5</spring.boot.version>
 
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
