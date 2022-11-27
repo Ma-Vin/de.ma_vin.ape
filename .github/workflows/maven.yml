@@ -27,23 +27,10 @@ jobs:
           distribution: adopt
           java-package: jdk
           cache: 'maven'
-      - name: Cache Maven packages
-        uses: actions/cache@v3
-        with:
-          path: ~/.m2
-          key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
-          restore-keys: ${{ runner.os }}-m2
-      # Not available at private repository
-      # - name: Initialize CodeQL
-      #   uses: github/codeql-action/init@v1
-      #   with:
-      #     languages: java
       - name: Build ape
         env:
           GITHUB_TOKEN: ${{ secrets.APE_DEPENDENCY_BUILD_PAT }}
         run: mvn -B clean install --file main/pom.xml --settings maven/settings.xml
-      # - name: Perform CodeQL Analysis
-      #   uses: github/codeql-action/analyze@v1
       - name: delete old versions
         uses: actions/delete-package-versions@v2
         with:
