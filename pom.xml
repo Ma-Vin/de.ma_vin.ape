@@ -55,9 +55,9 @@
         <maven.resource.plugin.version>3.3.0</maven.resource.plugin.version>
         <maven.source.plugin.version>3.2.1</maven.source.plugin.version>
         <maven.surefire.plugin.version>3.0.0-M7</maven.surefire.plugin.version>
-        <mockito.version>4.8.1</mockito.version>
+        <mockito.version>4.9.0</mockito.version>
         <sonar.plugin.version>3.9.1.2184</sonar.plugin.version>
-        <spring.boot.version>2.7.5</spring.boot.version>
+        <spring.boot.version>3.0.0</spring.boot.version>
 
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
